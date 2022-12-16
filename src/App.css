@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-control:focus {
+  border-color: #333333 !important;
+  outline: 0 !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
